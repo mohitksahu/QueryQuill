@@ -13,6 +13,8 @@
 /.virtualenv/
 /*env*/
 /*ENV*/
+backend/rag_model/**
+
 
 # Python
 __pycache__/
