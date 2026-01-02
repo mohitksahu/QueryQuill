@@ -8,7 +8,7 @@ from huggingface_hub import HfApi
 def test_token():
     # Load environment variables from specific path
     # Use raw string to avoid escape sequence issues with backslashes
-    env_path = Path(r"your path to .env file")  # Replace with your actual path to .env file
+    env_path = Path(r".env")  # Replace with your actual path to .env file
     
     # Check if the file exists
     if not env_path.exists():
